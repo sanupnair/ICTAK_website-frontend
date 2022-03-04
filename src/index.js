@@ -15,10 +15,9 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 ReactDOM.render(
   <Router>
-   <Navbar/>
-    <Routes>
+  <Navbar/>
+  <Routes>
       <Route path="/" element={<Home />} />
-     
       <Route path="/contact" element={<Contact />} />
       <Route path="/register" element={<Register />} />
       <Route path="/courses" element={<Courses />} />
@@ -26,8 +25,8 @@ ReactDOM.render(
        
        
      
-    </Routes>
-    <Footer />
+  </Routes>
+  <Footer />
   </Router>,
 
   document.getElementById("root")

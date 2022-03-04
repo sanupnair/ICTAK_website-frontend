@@ -22,7 +22,7 @@
 }
 
 
-/*** Spinner ***/
+
 #spinner {
     opacity: 0;
     visibility: hidden;
@@ -39,7 +39,7 @@
 
 
 
-/*** Header carousel ***/
+
 @media (max-width: 768px) {
     .header-carousel .owl-carousel-item {
         position: relative;
@@ -100,7 +100,6 @@
 }
 
 
-/*** Section Title ***/
 .section-title {
     position: relative;
     display: inline-block;
@@ -140,7 +139,7 @@
 }
 
 
-/*** Service ***/
+
 .service-item {
     background: var(--light);
     transition: .5s;
@@ -160,7 +159,7 @@
 }
 
 
-/*** Categories & Courses ***/
+
 .category img,
 .course-item img {
     transition: .5s;
@@ -172,7 +171,7 @@
 }
 
 
-/*** Team ***/
+
 .team-item img {
     transition: .5s;
 }
@@ -182,7 +181,7 @@
 }
 
 
-/*** Testimonial ***/
+
 .testimonial-carousel::before {
     position: absolute;
     content: "";
@@ -255,7 +254,7 @@
 }
 
 
-/*** Footer ***/
+
 .footer .btn.btn-social {
     margin-right: 5px;
     width: 35px;

@@ -1,10 +1,10 @@
 import React from 'react';
-import './footer.css';
+
 
 function Footer() {
   return (
     <>
-   <footer class="text-center text-lg-start " style={{backgroundColor:'light-blue'}}>
+   <footer class="text-center text-lg-start ">
   <section
     class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom" >
 
@@ -45,7 +45,7 @@ function Footer() {
           </h6>
           <p>
           "We conduct various programs which leverages the link between industry and academia. 
-          These interactions not only limits to students, but also extends to faculties too..." 
+          These interactions not only limits to students, but also extends to faculties too" 
          
           </p>
         </div>
@@ -79,16 +79,16 @@ function Footer() {
           
           </h6>
           <p>
-            <a href="#!" class="text-reset" style={{textDecoration:'none'}}>Courses</a>
+            <a href="/courses" class="text-reset" style={{textDecoration:'none'}}>Courses</a>
           </p>
           <p>
-            <a href="#!" class="text-reset" style={{textDecoration:'none'}}>About Us</a>
+            <a href="/about" class="text-reset" style={{textDecoration:'none'}}>About Us</a>
           </p>
           <p>
-            <a href="#!" class="text-reset" style={{textDecoration:'none'}}>Events</a>
+            <a href="#" class="text-reset" style={{textDecoration:'none'}}>Events</a>
           </p>
           <p>
-            <a href="#!" class="text-reset" style={{textDecoration:'none'}}>Contact Us</a>
+            <a href="/contact" class="text-reset" style={{textDecoration:'none'}}>Contact Us</a>
           </p>
         </div>
       
@@ -100,7 +100,7 @@ function Footer() {
             Contact
           </h6>
           <p><i class="fas fa-home me-3"></i>ICT ACADEMY HQ <br/> 
-          G1,Ground Floor, Thejaswini Building,
+            G1,Ground Floor, Thejaswini Building,
             Technopark, Thiruvananthapuram,<br/>
                 Kerala, India.</p>
           <p>
