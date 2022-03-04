@@ -21,25 +21,6 @@
     z-index: 99;
 }
 
-
-
-#spinner {
-    opacity: 0;
-    visibility: hidden;
-    transition: opacity .5s ease-out, visibility 0s linear .5s;
-    z-index: 99999;
-}
-
-#spinner.show {
-    transition: opacity .5s ease-out, visibility 0s linear 0s;
-    visibility: visible;
-    opacity: 1;
-}
-
-
-
-
-
 @media (max-width: 768px) {
     .header-carousel .owl-carousel-item {
         position: relative;
@@ -182,7 +163,7 @@
 
 
 
-.testimonial-carousel::before {
+.owl-carousel::before {
     position: absolute;
     content: "";
     top: 0;
@@ -193,7 +174,7 @@
     z-index: 1;
 }
 
-.testimonial-carousel::after {
+.owl-carousel::after {
     position: absolute;
     content: "";
     top: 0;
