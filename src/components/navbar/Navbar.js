@@ -4,6 +4,7 @@ import '..//..//css/style.css';
 import { Link } from "react-router-dom";
 
 
+
 function Navbar() {
   return (
 
@@ -38,7 +39,8 @@ function Navbar() {
                   
                 </div>
             </div>
-            <Link to="https://retail.ictkerala.org/" class="nav-item nav-link">Paatshala LMS</Link>
+           
+            <a href='https://retail.ictkerala.org/' target="_blank" class="nav-item nav-link">Paatshala LMS</a>
             <Link to="/contact" class="nav-item nav-link">Contact</Link>
            
             
