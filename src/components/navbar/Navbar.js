@@ -10,6 +10,7 @@ function Navbar() {
     <a href="/" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
         <h2 class="m-0 text-primary"><img src={logo} style={{width:'50px', height:'50px', marginRight:'10px'}}></img>ICTAK</h2>
     </a>
+    <button type="button" class="btn btn-outline-secondary">Login</button>
     <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
         <span class="navbar-toggler-icon"></span>
     </button>
@@ -39,6 +40,7 @@ function Navbar() {
             </div>
             <a href="https://retail.ictkerala.org/" class="nav-item nav-link">Paatshala LMS</a>
             <a href="/contact" class="nav-item nav-link">Contact</a>
+            
         </div>
         <a href="/register" class="btn btn-primary py-4 px-lg-5 d-none d-lg-block">Register Now<i class="fa fa-arrow-right ms-3"></i></a>
     </div>
