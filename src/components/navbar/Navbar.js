@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from '..//..//assets/images/logo.png';
 import '..//..//css/style.css';
+import { Link } from "react-router-dom";
 
 
 function Navbar() {
@@ -16,33 +17,35 @@ function Navbar() {
     </button>
     <div class="collapse navbar-collapse" id="navbarCollapse">
         <div class="navbar-nav ms-auto p-4 p-lg-0">
-            <a href="/" class="nav-item nav-link ">Home</a>
-            <a href="/about" class="nav-item nav-link">About</a>
-        
-                <a href="/courses" class="nav-item nav-link " >Courses</a>
+        <Link to="/" class="nav-item nav-link">Home</Link>
+        <Link to="/about" class="nav-item nav-link">About</Link>
+        <Link to="/courses" class="nav-item nav-link">Courses</Link>
                 
                 
             <div class="nav-item dropdown">
-                <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Offerings</a>
+            <Link to="/" class="nav-item nav-link">Offerings</Link>
                 <div class="dropdown-menu  m-0">
-                    <a href="" class="dropdown-item">Partnership</a>
-                    <a href="" class="dropdown-item">Membership</a>
-                  
+                <Link to=""class="dropdown-item">Partnership</Link>
+                <Link to=""class="dropdown-item">Membership</Link>
+                                    
                 </div>
             </div>
             <div class="nav-item dropdown">
-                <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Events</a>
+            <Link to="/" class="nav-item nav-link">Events</Link>
                 <div class="dropdown-menu fade-down m-0">
-                    <a href="" class="dropdown-item">ICSET</a>
-                    <a href="" class="dropdown-item">Techathlon</a>
+                <Link to=""class="dropdown-item">ICSET</Link>
+                <Link to=""class="dropdown-item">Techathlon</Link>
                   
                 </div>
             </div>
-            <a href="https://retail.ictkerala.org/" class="nav-item nav-link">Paatshala LMS</a>
-            <a href="/contact" class="nav-item nav-link">Contact</a>
+            <Link to="https://retail.ictkerala.org/" class="nav-item nav-link">Paatshala LMS</Link>
+            <Link to="/contact" class="nav-item nav-link">Contact</Link>
+           
             
+           
         </div>
-        <a href="/register" class="btn btn-primary py-4 px-lg-5 d-none d-lg-block">Register Now<i class="fa fa-arrow-right ms-3"></i></a>
+       
+        <Link to="/register" class="btn btn-primary py-4 px-lg-5 d-none d-lg-block">Register Now<i class="fa fa-arrow-right ms-3"></i></Link>   
     </div>
 </nav>
   )
