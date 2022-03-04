@@ -1,10 +1,16 @@
-import React from 'react';
-import { ExternalLink } from 'react-external-link';
+import React, { useEffect } from "react";
 
-const paatshalaLMS = () => (
-  <div>
-    <ExternalLink href="https://example.com" />
-  </div>
-);
+function PaatshalaLMS() {
 
-export default paatshalaLMS;
+  useEffect(() => {
+    window.location.href = "https://retail.ictkerala.org/";
+  }, []);
+
+  return (
+    <div>
+     You are being redirected to Paatshala
+    </div>
+  );
+}
+
+export default PaatshalaLMS;

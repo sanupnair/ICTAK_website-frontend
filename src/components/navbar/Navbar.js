@@ -42,6 +42,7 @@ function Navbar() {
            
             <a href='https://retail.ictkerala.org/' target="_blank" class="nav-item nav-link">Paatshala LMS</a>
             <Link to="/contact" class="nav-item nav-link">Contact</Link>
+            <Link to="/paatshala" class="nav-item nav-link">paat</Link>
            
             
            

@@ -8,7 +8,7 @@ import Contact from "./pages/Contact";
 import Register from "./pages/Register";
 import Courses from "./pages/Courses";
 import About from "./pages/About";
-
+import PaatshalaLMS from "./pages/PaatshalaLMS";
 
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
@@ -24,6 +24,7 @@ ReactDOM.render(
       <Route path="/register" element={<Register />} />
       <Route path="/courses" element={<Courses />} />
       <Route path="/about" element={<About />} />
+      <Route path="/paatshala" element={<PaatshalaLMS />} />
       
    
 
