@@ -8,7 +8,12 @@ function PaatshalaLMS() {
 
   return (
     <div>
-     You are being redirected to Paatshala
+     <div class="alert alert-success" role="alert">
+  <h4 class="alert-heading">Important Message</h4>
+  <p>You are being redirected to ICTAK Paatshala External Link</p>
+  <hr/>
+  <p class="mb-0">Page Loading ......</p>
+</div>
     </div>
   );
 }

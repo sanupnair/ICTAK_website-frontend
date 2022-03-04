@@ -1,5 +1,6 @@
 import React from 'react';
 import aboutimg from '..//..//assets/images/ict.gif';
+import { Link } from "react-router-dom";
 
 function Aboutus() {
   return (
@@ -37,7 +38,8 @@ function Aboutus() {
                         <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>Internship</p>
                     </div>
                 </div>
-                <a class="btn btn-primary py-3 px-5 mt-2" href="/about">Read More</a>
+                <Link to="/about" class="btn btn-primary py-3 px-5 mt-2">Read More</Link>
+                
             </div>
         </div>
     </div>
