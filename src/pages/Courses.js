@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import cat1 from '..//assets/images/cat-1.jpg';
 import cat2 from '..//assets/images/cat-2.jpg';
 import cat3 from '..//assets/images/cat-3.jpg';
@@ -15,14 +16,14 @@ function Courses() {
         <div class="row g-3">
             <div class="col-lg-7 col-md-6">
                 <div class="row g-3">
-                    <div class="col-lg-12 col-md-12 wow zoomIn" data-wow-delay="0.1s">
-                        <a class="position-relative d-block overflow-hidden" href="">
+                    <div class="col-lg-12 col-md-12 wow zoomIn">
+                        <Link to="/retail" class="position-relative d-block overflow-hidden" >
                             <img class="img-fluid" src={cat1} alt=""/>
                             <div class="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3" >
                                 <h5 class="m-0">Retail</h5>
                                 <small class="text-primary">10 Courses</small>
                             </div>
-                        </a>
+                        </Link>
                     </div>
                     <div class="col-lg-6 col-md-12 wow zoomIn" data-wow-delay="0.3s">
                         <a class="position-relative d-block overflow-hidden" href="">

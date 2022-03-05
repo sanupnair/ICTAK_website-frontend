@@ -15,7 +15,7 @@ function Header() {
                         <div class="row justify-content-start">
                             <div class="col-sm-10 col-lg-12">
                                 <h5 class="" style={{color: 'silver'}}>Welcome to ICT Academy of Kerala</h5>
-                                <h1 class="display-3  animated slideInDown" style={{color:"teal", letterSpacing:'.1em'}}>Building the Nation's Future</h1>
+                                <h1 class="display-3" id='slogan' style={{color:"teal", letterSpacing:'.1em'}}>Building the Nation's Future</h1>
                                 <p class="fs-5 text-light mb-4 pb-2" style={{textAlign:'justify'}}>Information and Communication Technology Academy of Kerala is an organisation established by Government of Kerala to enhance the quality of graduates in the information technology sector and to generate resources for increasing the employability of students.</p>
                                 <Link to="/courses" class="btn btn-light py-md-3 px-md-5 animated slideInRight">Learner's Click Here</Link>
                                 

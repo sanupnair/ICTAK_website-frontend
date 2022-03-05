@@ -10,21 +10,29 @@ function Navbar() {
 
     <nav class="navbar navbar-expand-lg bg-white navbar-light shadow sticky-top p-0">
     <a href="/" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
-        <h2 class="m-0 text-primary"><img src={logo} style={{width:'50px', height:'50px', marginRight:'10px'}}></img>ICTAK</h2>
+    
+    <img src={logo} style={{width:'50px', height:'50px', marginRight:'10px'}}></img>
     </a>
-    <button type="button" class="btn btn-outline-secondary">Login</button>
+    <div class="content">
+<h2>ICTAK</h2>
+<h2>ICTAK</h2>
+</div>
+    
     <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
         <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarCollapse">
         <div class="navbar-nav ms-auto p-4 p-lg-0">
+       
         <Link to="/" class="nav-item nav-link">Home</Link>
         <Link to="/about" class="nav-item nav-link">About</Link>
         <Link to="/courses" class="nav-item nav-link">Courses</Link>
                 
                 
             <div class="nav-item dropdown">
-            <Link to="/" class="nav-item nav-link">Offerings</Link>
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+           Offerings
+          </a>
                 <div class="dropdown-menu  m-0">
                 <Link to=""class="dropdown-item">Partnership</Link>
                 <Link to=""class="dropdown-item">Membership</Link>
@@ -32,7 +40,9 @@ function Navbar() {
                 </div>
             </div>
             <div class="nav-item dropdown">
-            <Link to="/" class="nav-item nav-link">Events</Link>
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+           Events
+          </a>
                 <div class="dropdown-menu fade-down m-0">
                 <Link to=""class="dropdown-item">ICSET</Link>
                 <Link to=""class="dropdown-item">Techathlon</Link>
@@ -42,6 +52,7 @@ function Navbar() {
            
             <Link to="/contact" class="nav-item nav-link">Contact</Link>
             <Link to="//retail.ictkerala.org/" target="_blank" class="nav-item nav-link">Paatshala LMS</Link>
+            <Link to="/login" class="nav-item nav-link">Login</Link>
            
             
            
