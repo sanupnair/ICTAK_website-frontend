@@ -34,8 +34,8 @@ function Navbar() {
            Offerings
           </a>
                 <div class="dropdown-menu  m-0">
-                <Link to=""class="dropdown-item">Partnership</Link>
-                <Link to=""class="dropdown-item">Membership</Link>
+                <Link to="/offerings/partnership"class="dropdown-item">Partnership</Link>
+                <Link to="/offerings/membership"class="dropdown-item">Membership</Link>
                                     
                 </div>
             </div>

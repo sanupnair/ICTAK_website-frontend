@@ -10,7 +10,9 @@ import Courses from "./pages/Courses";
 import About from "./pages/About";
 import Retail from "./pages/Retail";
 import Singlecourse from "./pages/Singlecourse";
-
+import Login from "./pages/Login";
+import Membership from "./pages/Membership"
+import Partnership from "./pages/Partnership"
 
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
@@ -27,7 +29,10 @@ ReactDOM.render(
       <Route path="/courses" element={<Courses />} />
       <Route path="/about" element={<About />} />       
       <Route path="/retail" element={<Retail />} />  
+      <Route path="/login" element={<Login />} />  
       <Route path="/retail/singlecourse" element={<Singlecourse />} />  
+      <Route path="/offerings/partnership" element={<Partnership/>} />  
+      <Route path="/offerings/membership" element={<Membership />} />  
 
     retail
   </Routes>
